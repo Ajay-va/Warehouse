@@ -5,6 +5,8 @@ import javax.annotation.PreDestroy;
 
 public class Product {
 	private int pid;
+	private String name;
+	priavate String password;
 
 	public Product() {
 		super();
